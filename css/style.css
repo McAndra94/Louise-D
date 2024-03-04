@@ -1,0 +1,86 @@
+body {
+	padding: 0 20px;
+	margin: 0;
+	font-family: "Libre Baskerville", sans-serif;
+	background-color: #f8f9fa;
+}
+
+header {
+	margin-top: 25px;
+}
+
+.navbarName {
+	font: 24px "Libre Baskerville", sans-serif;
+	color: #0147ab;
+	text-decoration: none;
+}
+
+.navbarName:hover {
+	text-decoration: none;
+	color: #0147ab;
+}
+
+.nav-item {
+	font: 28px;
+	color: #0147ab;
+	margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	color: #0147ab;
+}
+
+.imageBanner {
+	background-color: #e1f1fa;
+	padding-bottom: 20px;
+	margin-top: 15px;
+}
+
+.bannerSection img {
+	padding-bottom: 20px;
+}
+
+.bannerSection h1 {
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+.bannerSection h2 {
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+.img-fluid {
+	max-width: 1150px;
+	width: 100%;
+	max-height: 400px;
+	height: auto;
+	border-radius: 5px;
+	padding: 0 20px;
+}
+
+main {
+	margin-top: 50px;
+}
+
+footer {
+	margin-bottom: 50px;
+	background-color: #f8f9fa;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 800px) {
+	.row.text-center {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.longEmail p {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}
