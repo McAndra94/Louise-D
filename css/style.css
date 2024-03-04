@@ -41,7 +41,7 @@ header {
 	padding-bottom: 20px;
 }
 
-.bannerSection h1 {
+#titre-banner {
 	margin-top: -50px;
 	font-size: 20px;
 }
@@ -71,6 +71,15 @@ footer {
 }
 
 @media (max-width: 800px) {
+	#titre-banner {
+		margin-top: -45px;
+		font-size: 16px;
+	}
+
+	#sous-titre-banner {
+		font-size: 14px;
+	}
+
 	.row.text-center {
 		display: flex;
 		flex-direction: column;
